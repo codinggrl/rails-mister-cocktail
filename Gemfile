@@ -49,7 +49,8 @@ group :development, :test do
   gem 'dotenv-rails'
 end
 
-
+gem 'cloudinary', '~> 1.9.1'
+gem 'carrierwave', '~> 1.2'
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.

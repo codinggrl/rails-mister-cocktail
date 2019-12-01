@@ -1,9 +1,14 @@
-<h1>Which cocktail would you like to add?</h1>
-<p>Please, fill out this simple form: </p>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <h1>Create a new cocktail</h1>
 
-<%= simple_form_for [@cocktail] do |f| %>
-  <%= f.input :name %>
-
-  <%= f.submit "add a Cocktail", class: "btn btn-primary" %>
-  <%= link_to "Cocktails", cocktails_path, class: "btn btn-primary" %>
-<% end %>
+      <%= simple_form_for @cocktail do |f| %>
+        <%= f.input :name, label:"Cocktail name"  %>
+        <%= f.input :photo %>
+        <%= f.input :photo_cache, as: :hidden %>
+        <%= f.button :submit, class: 'btn btn-primary' %>
+      <% end %>
+    </div>
+  </div>
+</div>

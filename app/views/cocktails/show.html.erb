@@ -1,21 +1,35 @@
-<div class="container"></div>
-<h3>
-  <strong><p>Name:</p></strong>
-  <%= @cocktail.name %>
-</h3>
-<br>
-<h3>
-  <strong><p>Recipe:</p></strong>
-</h3>
-<h3>
-  <% @cocktail.doses.each do |dose| %>
-    <%= dose.description %>
-  <% end %>
-</h3>
-<br>
-<%= link_to "Cocktails", cocktails_path, class: "btn btn-primary" %>
-<%= link_to "Add a dose", new_cocktail_dose_path(@cocktail), class: "btn btn-primary" %>
-<%= link_to "Delete", cocktails_path(@cocktail),
-      method: :delete,
-      data: { confirm: "Are you sure?" }, class: "btn btn-primary" %>
+<div class="container">
+  <h1><%= @cocktail.name %></h1>
+  <%= link_to "Back to all cocktails", cocktails_path, class: "btn btn-primary" %>
+  <br>
+  <%= cl_image_tag @cocktail.photo, height: 300, width: 400, crop: :fill %>
+
+   <div class="row">
+    <div class="col-sm-12 col-md-6">
+      <h3>Recipe</h3>
+      <table class="table table-bordered">
+        <tbody>
+          <thead>
+            <th>Ingredient</th>
+            <th>Description</th>
+            <th>Action</th>
+          </thead>
+          <% @cocktail.doses.each do |dose| %>
+            <tr>
+              <td><%= dose.ingredient.name %></td>
+              <td><%= dose.description %></td>
+              <td>
+                <%= link_to cocktail_dose_path(dose,@cocktail), method: :delete, data: { confirm: "Are you sure?" } do %>
+                  <i class="fa fa-trash destroy_dose"></i>
+                <% end %>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-sm-12 col-md-6">
+      <%= link_to "Add a dose", new_cocktail_dose_path(@cocktail), class: "btn btn-primary" %>
+    </div>
+  </div>
 
