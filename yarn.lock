@@ -1180,7 +1180,7 @@ autoprefixer@^9.6.1:
     chalk "^2.4.2"
     normalize-range "^0.1.2"
     num2fraction "^1.2.2"
-    postcss "^7.0.23"
+    postcss "^8.2.10"
     postcss-value-parser "^4.0.2"
 
 aws-sign2@~0.7.0:
@@ -2011,7 +2011,7 @@ css-blank-pseudo@^0.1.4:
   resolved "https://registry.yarnpkg.com/css-blank-pseudo/-/css-blank-pseudo-0.1.4.tgz#dfdefd3254bf8a82027993674ccf35483bfcb3c5"
   integrity sha512-LHz35Hr83dnFeipc7oqFDmsjHdljj3TQtxGGiNWSOsTLIAubSm4TEz8qCaKFpk7idaQ1GfWscF4E6mgpBysA1w==
   dependencies:
-    postcss "^7.0.5"
+    postcss "^8.2.10"
 
 css-color-names@0.0.4, css-color-names@^0.0.4:
   version "0.0.4"
@@ -2023,7 +2023,7 @@ css-declaration-sorter@^4.0.1:
   resolved "https://registry.yarnpkg.com/css-declaration-sorter/-/css-declaration-sorter-4.0.1.tgz#c198940f63a76d7e36c1e71018b001721054cb22"
   integrity sha512-BcxQSKTSEEQUftYpBVnsH4SF05NTuBokb19/sBt6asXGKZ/6VP7PLG1CBCkFDYOnhXhPh0jMhO6xZ71oYHXHBA==
   dependencies:
-    postcss "^7.0.1"
+    postcss "^8.2.10"
     timsort "^0.3.0"
 
 css-has-pseudo@^0.10.0:
@@ -2031,7 +2031,7 @@ css-has-pseudo@^0.10.0:
   resolved "https://registry.yarnpkg.com/css-has-pseudo/-/css-has-pseudo-0.10.0.tgz#3c642ab34ca242c59c41a125df9105841f6966ee"
   integrity sha512-Z8hnfsZu4o/kt+AuFzeGpLVhFOGO9mluyHBaA2bA8aCGTwah5sT3WV/fTHH8UNZUytOIImuGPrl/prlb4oX4qQ==
   dependencies:
-    postcss "^7.0.6"
+    postcss "^8.2.10"
     postcss-selector-parser "^5.0.0-rc.4"
 
 css-loader@^3.2.0:
@@ -2044,7 +2044,7 @@ css-loader@^3.2.0:
     icss-utils "^4.1.1"
     loader-utils "^1.2.3"
     normalize-path "^3.0.0"
-    postcss "^7.0.17"
+    postcss "^8.2.10"
     postcss-modules-extract-imports "^2.0.0"
     postcss-modules-local-by-default "^3.0.2"
     postcss-modules-scope "^2.1.0"
@@ -2057,7 +2057,7 @@ css-prefers-color-scheme@^3.1.1:
   resolved "https://registry.yarnpkg.com/css-prefers-color-scheme/-/css-prefers-color-scheme-3.1.1.tgz#6f830a2714199d4f0d0d0bb8a27916ed65cff1f4"
   integrity sha512-MTu6+tMs9S3EUqzmqLXEcgNRbNkkD/TGFvowpeoWJn5Vfq7FMgsmRQs9X5NXAURiOBmOxm/lLjsDNXDE6k9bhg==
   dependencies:
-    postcss "^7.0.5"
+    postcss "^8.2.10"
 
 css-select-base-adapter@^0.1.1:
   version "0.1.1"
@@ -2114,7 +2114,7 @@ cssnano-preset-default@^4.0.7:
   dependencies:
     css-declaration-sorter "^4.0.1"
     cssnano-util-raw-cache "^4.0.1"
-    postcss "^7.0.0"
+    postcss "^8.2.10"
     postcss-calc "^7.0.1"
     postcss-colormin "^4.0.3"
     postcss-convert-values "^4.0.1"
@@ -2158,7 +2158,7 @@ cssnano-util-raw-cache@^4.0.1:
   resolved "https://registry.yarnpkg.com/cssnano-util-raw-cache/-/cssnano-util-raw-cache-4.0.1.tgz#b26d5fd5f72a11dfe7a7846fb4c67260f96bf282"
   integrity sha512-qLuYtWK2b2Dy55I8ZX3ky1Z16WYsx544Q0UWViebptpwn/xDBmog2TLg4f+DBMg1rJ6JDWtn96WHbOKDWt1WQA==
   dependencies:
-    postcss "^7.0.0"
+    postcss "^8.2.10"
 
 cssnano-util-same-parent@^4.0.0:
   version "4.0.1"
@@ -2173,7 +2173,7 @@ cssnano@^4.1.10:
     cosmiconfig "^5.0.0"
     cssnano-preset-default "^4.0.7"
     is-resolvable "^1.0.0"
-    postcss "^7.0.0"
+    postcss "^8.2.10"
 
 csso@^4.0.2:
   version "4.0.2"
@@ -3340,7 +3340,7 @@ icss-utils@^4.0.0, icss-utils@^4.1.1:
   resolved "https://registry.yarnpkg.com/icss-utils/-/icss-utils-4.1.1.tgz#21170b53789ee27447c2f47dd683081403f9a467"
   integrity sha512-4aFq7wvWyMHKgxsH8QQtGpvbASCf+eM3wPRLI6R+MgAnTCZ6STYsRvttLvRWK0Nfif5piF394St3HeJDaljGPA==
   dependencies:
-    postcss "^7.0.14"
+    postcss "^8.2.10"
 
 ieee754@^1.1.4:
   version "1.1.13"
@@ -5564,7 +5564,7 @@ postcss-preset-env@^6.7.0:
     css-has-pseudo "^0.10.0"
     css-prefers-color-scheme "^3.1.1"
     cssdb "^4.4.0"
-    postcss "^7.0.17"
+    postcss "^8.2.10"
     postcss-attribute-case-insensitive "^4.0.1"
     postcss-color-functional-notation "^2.0.1"
     postcss-color-gray "^5.0.0"
@@ -6791,7 +6791,7 @@ stylehacks@^4.0.0:
   integrity sha512-7GlLk9JwlElY4Y6a/rmbH2MhVlTyVmiJd1PfTCqFaIBEGMYNsrO/v3SeGTdhBThLg4Z+NbOk/qFMwCa+J+3p/g==
   dependencies:
     browserslist "^4.0.0"
-    postcss "^7.0.0"
+    postcss "^8.2.10"
     postcss-selector-parser "^3.0.0"
 
 supports-color@6.1.0, supports-color@^6.1.0:
