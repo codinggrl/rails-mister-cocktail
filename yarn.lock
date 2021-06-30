@@ -1475,7 +1475,7 @@ cacache@^11.2.0:
     rimraf "^2.6.3"
     ssri "^8.0.1"
     unique-filename "^1.1.1"
-    y18n "^4.0.0"
+    y18n "^4.0.1"
 
 cacache@^12.0.2:
   version "12.0.3"
@@ -1496,7 +1496,7 @@ cacache@^12.0.2:
     rimraf "^2.6.3"
     ssri "^8.0.1"
     unique-filename "^1.1.1"
-    y18n "^4.0.0"
+    y18n "^4.0.1"
 
 cacache@^13.0.1:
   version "13.0.1"
@@ -7536,7 +7536,7 @@ yargs@13.2.4:
     set-blocking "^2.0.0"
     string-width "^3.0.0"
     which-module "^2.0.0"
-    y18n "^4.0.0"
+    y18n "^4.0.1"
     yargs-parser "^13.1.0"
 
 yargs@^13.3.2:
@@ -7552,5 +7552,5 @@ yargs@^13.3.2:
     set-blocking "^2.0.0"
     string-width "^3.0.0"
     which-module "^2.0.0"
-    y18n "^4.0.0"
+    y18n "^4.0.1"
     yargs-parser "^13.1.2"
