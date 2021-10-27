@@ -115,7 +115,7 @@ GEM
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     pg (1.1.4)
-    puma (4.3.8)
+    puma (4.3.9)  
     racc (1.5.2)
     rack (2.2.3)
     rack-proxy (0.6.5)
